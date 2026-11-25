@@ -4,7 +4,10 @@ type: software
 title: "AIVC: a mechanistic multi-omics virtual-cell model for cross-lineage perturbation prediction"
 abstract: "Code, benchmark harness and falsification scripts for AIVC, a virtual-cell perturbation model built on lineage-invariant low-rank programme gating, leave-one-lineage-out ridge anchoring and cross-modal embeddings. Includes the prior-atlas builders, the sign and component ablations, the equal-data audit and the figure-generation scripts."
 authors:
-  - name: "AIVC Authors"
+  - family-names: "Xing"
+    given-names: "Zihao"
+    affiliation: "College of Life Science and Technology, Jinan University, Guangzhou 510632, Guangdong, China"
+    email: "zihaoxing@stu2019.jnu.edu.cn"
 version: 1.1.0
 date-released: "2026-11-22"
 license: MIT

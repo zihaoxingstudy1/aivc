@@ -1,10 +1,10 @@
 # Where mechanistic priors work in virtual-cell perturbation prediction and target discovery
 
-**[First Author]¹\*, [Co-Authors]¹**
+**Zihao Xing¹\***
 
-¹ [Department / Institution, City, Postal Code, Country]
+¹ College of Life Science and Technology, Jinan University, Guangzhou 510632, Guangdong, China
 
-\*Correspondence: [corresponding.author@institution.edu]
+\*Correspondence: zihaoxing@stu2019.jnu.edu.cn
 
 ---
 
@@ -180,11 +180,11 @@ All analyses are deterministic reanalyses of public data with fixed, pre-generat
 
 ## Data availability
 
-All primary datasets are public and were obtained from their original repositories: Replogle Perturb-seq, Norman2019, JoungZhang2023, MIX-Seq, sci-Plex3, SchiebingerLander2019, LINCS L1000 (GSE70138), Tahoe-100M, TCGA, CPTAC, CCLE/DepMap, GDSC1/2, PRISM 20Q2, DrugComb, GTEx v8, EyeGEx (GSE115828), OmniPath and BioGRID. Accessions and release versions are listed in Supplementary Table 1. Derived data supporting every figure — per-perturbation predictions, bootstrap intervals, audit tables and the 35 Source Data CSV files indexed in `SOURCE_DATA_MANIFEST.md` — are provided with this paper and deposited at [repository DOI to be supplied]. Source data are provided with this paper.
+All primary datasets are public and were obtained from their original repositories: Replogle Perturb-seq, Norman2019, JoungZhang2023, MIX-Seq, sci-Plex3, SchiebingerLander2019, LINCS L1000 (GSE70138), Tahoe-100M, TCGA, CPTAC, CCLE/DepMap, GDSC1/2, PRISM 20Q2, DrugComb, GTEx v8, EyeGEx (GSE115828), OmniPath and BioGRID. Accessions and release versions are listed in Supplementary Table 1. Derived data supporting every figure — per-perturbation predictions, bootstrap intervals, audit tables and the 35 Source Data CSV files indexed in `SOURCE_DATA_MANIFEST.md` — are provided with this paper at https://github.com/zihaoxingstudy1/aivc (archived on Zenodo upon release). Source data are provided with this paper.
 
 ## Code availability
 
-The AIVC package (`aivc` 1.1.0), prior-graph builders, benchmark harness and falsification scripts are released under the MIT License at [repository URL to be supplied] and archived at [Zenodo DOI to be supplied]. Trained model weights and curated derivative datasets are released under CC BY-NC-SA 4.0 with supplementary terms in `MODEL_LICENSE.md`; commercial use of the weights requires a separate licence. The MIT licence applies to all source code in the repository.
+The AIVC package (`aivc` 1.1.0), prior-graph builders, benchmark harness and falsification scripts are released under the MIT License at https://github.com/zihaoxingstudy1/aivc (tag `v1.1.0`). Trained model weights and curated derivative datasets are released under CC BY-NC-SA 4.0 with supplementary terms in `MODEL_LICENSE.md`; commercial use of the weights requires a separate licence. The MIT licence applies to all source code in the repository.
 
 ---
 
@@ -221,13 +221,11 @@ We thank the open-source single-cell, multi-omics and systems-biology communitie
 
 ## Author contributions
 
-[First Author] conceived the study, designed and implemented the AIVC architecture, performed all computational benchmarks and falsification audits, generated the figures and wrote the manuscript. [Co-Authors] contributed to biological interpretation, clinical case framing and manuscript revision.
+Zihao Xing conceived the study, designed and implemented the AIVC architecture, performed all computational benchmarks and falsification audits, generated the figures and wrote the manuscript.
 
 ## Competing interests
 
-The authors hold intellectual property rights in the AIVC platform. Source code is released under the MIT License; trained model weights and curated derivative datasets are released under CC BY-NC-SA 4.0 with supplementary terms, and commercial use of the weights requires a separate paid licence.
-
-<!-- SUBMISSION CHECK: confirm this statement against institutional IP policy with the technology-transfer office before submission, and add any pending patent application numbers here. -->
+The author holds intellectual property rights in the AIVC platform. Source code is released under the MIT License; trained model weights and curated derivative datasets are released under CC BY-NC-SA 4.0 with supplementary terms, and commercial use of the weights requires a separate paid licence.
 
 ## Ethics declarations
 
@@ -235,7 +233,7 @@ This study reanalyses publicly available, de-identified human data (TCGA, CPTAC,
 
 ## Materials and correspondence
 
-Requests for materials and further information should be addressed to [First Author] ([first.author@institution.edu]).
+Requests for materials and further information should be addressed to Zihao Xing (zihaoxing@stu2019.jnu.edu.cn).
 
 ## Figure legends
 
