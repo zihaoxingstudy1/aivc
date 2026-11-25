@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, the prior atlas or the derived data, please cite the article and this archive."
+type: software
+title: "AIVC: a mechanistic multi-omics virtual-cell model for cross-lineage perturbation prediction"
+abstract: "Code, benchmark harness and falsification scripts for AIVC, a virtual-cell perturbation model built on lineage-invariant low-rank programme gating, leave-one-lineage-out ridge anchoring and cross-modal embeddings. Includes the prior-atlas builders, the sign and component ablations, the equal-data audit and the figure-generation scripts."
+authors:
+  - name: "AIVC Authors"
+version: 1.1.0
+date-released: "2026-11-22"
+license: MIT
+repository-code: "https://github.com/zihaoxingstudy1/aivc"
+url: "https://github.com/zihaoxingstudy1/aivc"
+keywords:
+  - virtual cell
+  - perturbation prediction
+  - single-cell
+  - mechanistic prior
+  - benchmark

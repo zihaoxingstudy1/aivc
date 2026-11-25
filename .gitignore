@@ -1,0 +1,33 @@
+# Large datasets & binary weights (hosted externally / Hugging Face / Zenodo)
+data/
+pretrained/
+versions/
+*.h5ad
+*.gctx
+*.gctx.gz
+*.parquet
+*.npz
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.ckpt
+
+# Keep source_data/ CSVs and docs/ figures, ignore raw bulk logs/intermediates
+test_results/*.csv
+test_results/*.pt
+test_results/*.log
+test_results/sota_norman_preds/
+test_results/boltz2_mutant_test/
+test_results/boltz2_smoke/
+
+# Python & OS artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Internal working notes and superseded licence/README copies (not for release)
+docs/_internal/
