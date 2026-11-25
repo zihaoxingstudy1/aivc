@@ -24,7 +24,7 @@ python test_python_scripts/quickstart_verify.py
 - `test_python_scripts/`: Benchmark, ablation, falsification, and figure-generation scripts.
 - `source_data/`: 35 plotting Source Data CSVs and manifest.
 - `figures/`: Main and supplementary manuscript figures.
-- Pretrained AIVC weights (`aivc_5omics_pathway_gnn.pt`, 10 MB) are archived on **Zenodo** (not GitHub).
+- Pretrained AIVC weights (`aivc_5omics_pathway_gnn.pt`, 10 MB) and Source Data workbook are archived on **Zenodo**: https://doi.org/10.5281/zenodo.24539342 (not GitHub).
 
 ## Documentation & Source Data
 - Manuscript Source: `docs/NatureCommunications/AIVC_NC_Manuscript.md`

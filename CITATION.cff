@@ -9,7 +9,8 @@ authors:
     affiliation: "College of Life Science and Technology, Jinan University, Guangzhou 510632, Guangdong, China"
     email: "zihaoxing@stu2019.jnu.edu.cn"
 version: 1.1.0
-date-released: "2026-11-22"
+doi: "10.5281/zenodo.24539342"
+date-released: "2026-11-25"
 license-url: "https://polyformproject.org/licenses/noncommercial/1.0.0/"
 repository-code: "https://github.com/zihaoxingstudy1/aivc"
 url: "https://github.com/zihaoxingstudy1/aivc"
