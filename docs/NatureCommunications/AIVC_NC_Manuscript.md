@@ -184,7 +184,7 @@ All primary datasets are public and were obtained from their original repositori
 
 ## Code availability
 
-The AIVC package (`aivc` 1.1.0), prior-graph builders, benchmark harness and falsification scripts are released under the MIT License at https://github.com/zihaoxingstudy1/aivc (tag `v1.1.0`). Trained model weights and curated derivative datasets are released under CC BY-NC-SA 4.0 with supplementary terms in `MODEL_LICENSE.md`; commercial use of the weights requires a separate licence. The MIT licence applies to all source code in the repository.
+The AIVC package (`aivc` 1.1.0), prior-graph builders, benchmark harness and falsification scripts are released under the PolyForm Noncommercial License 1.0.0 (free for academic and non-commercial research; commercial use requires a separate paid licence) at https://github.com/zihaoxingstudy1/aivc (tag `v1.1.0`). Trained model weights and curated derivative datasets are released under CC BY-NC-SA 4.0 with supplementary terms in `MODEL_LICENSE.md`; commercial use requires a separate paid licence.
 
 ---
 
@@ -225,7 +225,7 @@ Zihao Xing conceived the study, designed and implemented the AIVC architecture, 
 
 ## Competing interests
 
-The author holds intellectual property rights in the AIVC platform. Source code is released under the MIT License; trained model weights and curated derivative datasets are released under CC BY-NC-SA 4.0 with supplementary terms, and commercial use of the weights requires a separate paid licence.
+The author holds intellectual property rights in the AIVC platform. Source code is released under the PolyForm Noncommercial License 1.0.0 (free for academic and non-commercial use); trained model weights and curated derivative datasets are released under CC BY-NC-SA 4.0 with supplementary terms in `MODEL_LICENSE.md`, and any commercial use requires a separate paid licence.
 
 ## Ethics declarations
 

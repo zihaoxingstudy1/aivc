@@ -11,9 +11,20 @@
 
 ## Quick Start
 ```bash
+git clone https://github.com/zihaoxingstudy1/aivc.git
+cd aivc
 pip install -e .
-python test_python_scripts/aivc_flagship_test.py
+python test_python_scripts/quickstart_verify.py
 ```
+`quickstart_verify.py` runs out-of-the-box without downloading external primary datasets. To run full training and cross-lineage benchmarks on primary datasets (Replogle, Norman, Joung, MIX-Seq, Tahoe-100M, TCGA, CPTAC, GTEx), see `DATA.md` and `REPRODUCE.md` (and run `configure_paths.py --root /path/to/your/aivc` once).
+
+## Package Layout
+- `aivc/`: Public Python package entry point (`aivc/__init__.py`) re-exporting core APIs from `func_python_scripts/`.
+- `func_python_scripts/`: 23 core model, prior-graph, chemical, multi-omics, and evaluation modules.
+- `test_python_scripts/`: Benchmark, ablation, falsification, and figure-generation scripts.
+- `source_data/`: 35 plotting Source Data CSVs and manifest.
+- `figures/`: Main and supplementary manuscript figures.
+- Pretrained AIVC weights (`aivc_5omics_pathway_gnn.pt`, 10 MB) are archived on **Zenodo** (not GitHub).
 
 ## Documentation & Source Data
 - Manuscript Source: `docs/NatureCommunications/AIVC_NC_Manuscript.md`
@@ -21,14 +32,12 @@ python test_python_scripts/aivc_flagship_test.py
 - Dataset Accessions & Download Guide: `DATA.md`
 - Plotting Source Data (35 CSVs): `source_data/SOURCE_DATA_MANIFEST.md`
 
-## Licensing (MIT source code / CC BY-NC-SA weights / paid licence for commercial weight use)
-AIVC separates source code from trained assets, so the benchmark harness is fully open while commercial use of the weights remains controlled (`LICENSE` for code, `MODEL_LICENSE.md` for weights):
-- **Open-Source Academic Edition (`aivc` Core — Free for Non-Commercial Academic Research, Full Top-Journal SOTA Stack)**:
-  - **Scope**: Includes **all flagship capabilities** required for top-journal (*Nature / Science / Cell*) reproducibility (`AIVC v1.1 Ensemble`, `Overexpr & Epistasis_Ens5`, `Fast–Slow & State-Anchored ODE`, `5-Omics` masked-kinase recovery, `Tahoe-100M / LINCS L1000` scaling scripts, and `OmniPath` safety analysis), packaged with **clean standardized benchmarks and fast lightweight test data**.
-  - **Source Code**: Licensed under the **MIT License** (OSI-approved open source); see `LICENSE`.
-  - **Model Weights, Outputs & Curated Datasets**: Licensed under **CC BY-NC-SA 4.0** + `MODEL_LICENSE.md` (explicit **Anti-Distillation** & **Sponsor-Penetration** clauses blocking internal pharma free-riding and commercially funded academic R&D).
-- **Commercial Enterprise Pro Edition (Closed-Source — Paid Commercial License Required, Post-Publication Expansion)**: Built atop the full flagship engine for biopharma & clinical hospitals—adding **dirty-data auto-ingestion** (raw `10x` / messy clinical tables / gene alias & batch correction), **larger-scale private fine-tuning**, a **100% commercially compliant `Boltz-2 [MIT] + AutoDock Vina [Apache 2.0]` drug discovery pipeline**, one-click clinical/R&D decision reports, and enterprise Docker/API/UI deployment.
-- **Commercial Licensing & 90-Day Evaluation**: terms and contact route are set out in `MODEL_LICENSE.md`.
+## Licensing (Academic Non-Commercial Free / Commercial Use Requires Paid License)
+AIVC is dual-licensed for free non-commercial academic research and paid commercial licensing (`LICENSE` for code, `MODEL_LICENSE.md` for weights and derivative data):
+- **Academic & Non-Commercial Edition (`aivc` Core — Free for Non-Commercial Academic Research)**:
+  - **Source Code**: Licensed under the **PolyForm Noncommercial License 1.0.0** (`LICENSE`). Academic, educational, and non-profit research use is free; commercial use is prohibited without a separate paid commercial license.
+  - **Model Weights, Outputs & Curated Datasets**: Licensed under **CC BY-NC-SA 4.0** + `MODEL_LICENSE.md` (explicit **Anti-Distillation** & **Sponsor-Penetration** clauses).
+- **Commercial Enterprise License (Paid License Required)**: Required for any for-profit biopharma, biotech, AI, CRO, or clinical commercial deployment. Contact `zihaoxing@stu2019.jnu.edu.cn` (details in `MODEL_LICENSE.md`).
 
 ## Running the code on your own machine
 

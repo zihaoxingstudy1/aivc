@@ -43,6 +43,8 @@ def main():
     target = args.root.rstrip('/\\')
     if not os.path.isabs(target):
         sys.exit('--root must be an absolute path')
+    # Use forward slashes so non-raw Python strings on Windows (e.g. "C:\Users\...") never trigger unicodeescape errors
+    target_safe = target.replace('\\', '/')
 
     changed = 0
     total_hits = 0
@@ -55,7 +57,7 @@ def main():
         hits = 0
         for pat in PATTERNS:
             hits += new.count(pat)
-            new = new.replace(pat, target)
+            new = new.replace(pat, target_safe)
         if hits == 0:
             continue
         total_hits += hits

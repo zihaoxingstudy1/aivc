@@ -10,7 +10,7 @@ authors:
     email: "zihaoxing@stu2019.jnu.edu.cn"
 version: 1.1.0
 date-released: "2026-11-22"
-license: MIT
+license-url: "https://polyformproject.org/licenses/noncommercial/1.0.0/"
 repository-code: "https://github.com/zihaoxingstudy1/aivc"
 url: "https://github.com/zihaoxingstudy1/aivc"
 keywords:
