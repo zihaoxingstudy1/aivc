@@ -1,5 +1,7 @@
 # AIVC: Mechanistic Multi-Omics & Grey-Box Temporal Virtual Cell World Model
 
+> **Paper / Preprint**: Please read the official **bioRxiv preprint** (*"Where mechanistic priors work in virtual-cell perturbation prediction and target discovery"*, Zihao Xing, bioRxiv submission ID `BIORXIV/2026/769204`; also archived with trained five-omics weights and 52-sheet Source Data at **Zenodo**: https://doi.org/10.5281/zenodo.24539342).
+
 **AIVC** is a unified, mechanism-grounded virtual cell world model for cross-lineage genetic perturbation (CRISPRi/KO), gene overexpression (ORF/CRISPRa), multi-gene combinatorial epistasis, 5-omics protein/phosphorylation translation, continuous-time small-molecule dynamics, and multi-organ + human retina translational safety assessment.
 
 ## Key Capabilities
